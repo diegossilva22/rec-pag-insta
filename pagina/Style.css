@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box
+  text-decoration: none;
+  font-family: Sans-Serif;
+  font-size: 14px;
+}
+body {
+  background-color:
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.container-geral {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: 100vh;
+}
+.img-container1 {
+ display: flex; 
+ align-items: center;
+ width: 50%;
+ justify-content: center;
+}
+.cel-insta {
+  height: 50rem;
+}
+.container-aux {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.container-login {
+ justify-content: space-around;
+ align-items: center; 
+ display: flex;
+ flex-direction: column;
+ min-height: 34rem;
+ margin-left: 20px;
+ height: 40%;
+}
+.group {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color:;
+  width: 50%;
+  padding: 1.3rem 0;
+  border: 1px solid;
+}
+.group:nth-child(1) {
+  min-height: 19rem;
+  width: 300px;
+}
+.logo-instagram {
+  height: 7rem;
+}
+.profile-photo {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 100px;
+  overflow: hidden;
+  display: flex;
+}
+.img-perfil {
+  width: 6rem;
+  height: 6rem;
+  
+}
+.container-log-mai {
+  
+}
+.container-log-men {
+}
+.register {
+  border: 1px solid;
+  width: 300px;
+  justify-content: center;
+  margin-left: 20px;
+  height: 40px;
+}
+.edit-p {
+  
+}
+.download-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottons-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1px;
+}
+.app-download {
+  align-items: center;
+  justify-content: center;
+}
+.download-1, .download-2{
+  width: 50%;
+  height: 50%;
+}
