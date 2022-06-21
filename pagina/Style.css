@@ -7,6 +7,7 @@
   font-size: 14px;
 }
 body {
+  background-color: rgb(243,243,243);
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -16,7 +17,7 @@ body {
 }
 .container-geral {
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   width: 60%;
   height: 100vh;
@@ -28,29 +29,33 @@ body {
   width: 50%;
 }
 .cel-insta {
-  height: 56rem;
+  height: 50rem;
 }
+.aux {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 40px;
 }
 .container-login {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: column;
   width: 50%;
   min-height: 34rem;
-  margin: 50px;
 }
 .group {
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  width: 23rem;
-  height: 25rem;
+  width: 24.5rem;
+  height: 26rem;
   padding: 1.3rem 0;
   border: 1px solid black;
-  border-radius: 2px;
-  margin: 40px;
+  border-radius: 2.5px;
 }
 .logo-instagram {
   width: 11rem;
@@ -66,40 +71,52 @@ body {
   color: #fff;
   padding: 7px ;
   border-radius: 4px;
+  font-weight: bold;
+  font-size: 15px;
 }
 .insta-lougout {
   color: #0095f6;
   margin-top: 1rem;
+  font-weight: bolder;
 }
 .register {
-  border: 1px solid;
-  border-radius: 2px;
-  width: 23rem;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 2.5px;
+  width: 24.5rem;
   text-align: center;
   justify-content: center;
-  height: 85px;
-  margin: 40px;
+  height: 95px;
   display: flex;
   flex-direction: column;
+  margin: 5px;
+  color: rgb(160,160,160);
 }
 .edit-p {
   color: rgb(160,160,160);
+  font-size: 15px;
 }
 .tro-acc, .cadastro {
   color: #0095f6;
+  font-weight: bolder;
+  font-size: 14px;
 }
 .download-app {
-  margin: 20px;
   justify-content: center;
   display: flex;
   align-items: center;
   color: black;
+  margin-top:1rem;
+  width: 23.5rem;
+  height: 5rem;
+  font-size: 14px;
 }
 .bottons-img {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding: 0rem;
+  margin-bottom: 5px;
 }
 .download-1:nth-child(1) {
   background-image: url('images.jpeg');
@@ -108,7 +125,26 @@ body {
   background-image: url('images.png');
 }
 .download-1, .download-2 {
-  width: 8rem;
-  height: 2.9rem;
+  width: 8.7rem;
+  height: 3.2rem;
   margin: 3px;
+}
+
+
+/* media queries */
+@media (max-width: 1024px) {
+   .container-geral {
+    width: 90%;
+  }
+}
+@media (max-width: 650px) {
+  .container-geral {
+    width: 90%;
+  }
+  .img-container1 {
+    display: none;
+  }
+  .container-login {
+    justify-content: center;
+  }
 }
